@@ -8,6 +8,10 @@ body {
 
     color: #ffffff;
     background-color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-shadow: 2px 2px 7px #000000;
 }
 
 a {
