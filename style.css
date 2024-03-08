@@ -56,9 +56,19 @@ a:hover {
     position: absolute;
     bottom: 0px;
     padding: 13px;
-    padding-left: 25px;
+    padding-left: 30px;
     font-size: 15px;
     text-align: center;
+}
+
+#fullscreen {
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 30px;
+    font-size: 15px;
+    display: none;
 }
 
 @media (min-width: 700px) and (min-height: 500px) {
@@ -83,5 +93,10 @@ a:hover {
     #signature {
 
         padding: 30px;
+    }
+
+    #fullscreen {
+
+        display: block;
     }
 }
