@@ -2,7 +2,6 @@ html, body {
 
     height: 100%;
     margin: 0px;
-    overflow: hidden;
 }
 
 body {
@@ -17,12 +16,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
 }
 
 h1 {
 
     font-weight: 300;
     font-size: 36px;
+    border-radius: 0px 0px 25px 0px;
+    padding: 13px 20px 5px 25px;
+    margin: 0px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 a {
@@ -40,7 +45,7 @@ a:hover {
 .item {
 
     border-radius: 0px 25px 25px 0px;
-    padding: 13px 13px 4px 18px;
+    padding: 13px 20px 4px 25px;
     margin: 0px;
     margin-top: 13px;
     display: inline-block;
@@ -57,10 +62,6 @@ a:hover {
     h1 {
 
         font-size: 80px;
-    }
-
-    .item {
-
-        padding: 20px 20px 5px 30px;
+        padding: 20px 20px 5px 25px;
     }
 }
