@@ -19,6 +19,12 @@ body {
     background-position: center;
 }
 
+h1 {
+
+    font-weight: 300;
+    font-size: 36px;
+}
+
 a {
 
     color: #ffffff;
@@ -29,4 +35,12 @@ a {
 a:hover {
 
     color: #ff0022;
+}
+
+@media (min-width: 700px) and (min-height: 500px) {
+
+    h1 {
+
+        font-size: 80px;
+    }
 }
