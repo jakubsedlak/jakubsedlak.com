@@ -58,7 +58,6 @@ a:hover {
     padding: 13px;
     padding-left: 30px;
     font-size: 15px;
-    text-align: center;
 }
 
 #fullscreen {
@@ -68,7 +67,7 @@ a:hover {
     right: 0px;
     padding: 30px;
     font-size: 15px;
-    display: none;
+    opacity: 0;
 }
 
 @media (min-width: 700px) and (min-height: 500px) {
@@ -97,6 +96,6 @@ a:hover {
 
     #fullscreen {
 
-        display: block;
+        opacity: 1;
     }
 }
