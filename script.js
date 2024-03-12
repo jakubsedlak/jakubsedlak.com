@@ -6,6 +6,8 @@ function toggleFullscreen() {
        document.webkitFullscreenElement ||
        document.mozFullScreenElement ||
        document.msFullscreenElement) {
+
+        document.getElementById("fullscreen").firstChild.textContent = "FULLSCREEN"
         
         if(document.exitFullscreen) {
 
@@ -31,6 +33,8 @@ function toggleFullscreen() {
            document.webkitFullscreenEnabled ||
            document.mozFullScreenEnabled ||
            document.msFullscreenEnabled) {
+
+            document.getElementById("fullscreen").firstChild.textContent = "EXIT FULLSCREEN"
 
             var element = document.documentElement;
 
